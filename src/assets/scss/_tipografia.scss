@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+h5 {
+	font-family: $barlow-condensed;
+
+	.heading5 {
+		letter-spacing: 4.75px;
+	}
+
+	.subheading1 {
+		letter-spacing: normal;
+	}
+
+	.subheading2 {
+		letter-spacing: 2.35px;
+	}
+}
+
+.nav-test {
+	font-family: $barlow-condensed;
+	letter-spacing: 2.7px;
+}
