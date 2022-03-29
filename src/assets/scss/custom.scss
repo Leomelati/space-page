@@ -1,4 +1,6 @@
 @import './_variables';
+@import '~bootstrap/scss/bootstrap.scss';
 @import './_tipografia';
 @import './_buttons';
-@import '~bootstrap/scss/bootstrap.scss';
+@import './navbar';
+@import './_fundo';
