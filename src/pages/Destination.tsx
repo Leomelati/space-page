@@ -5,7 +5,7 @@ const DestinationPage = () => {
 	return (
 		<div className='background-destination'>
 			<MainHeader />
-			<p>DestinationPage</p>
+			<p className='text-light'>DestinationPage</p>
 		</div>
 	);
 }
