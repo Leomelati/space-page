@@ -1,13 +1,31 @@
-#root {
-	background-image: url("../images/background-home-desktop.jpg");
-	background-size: cover;
-	height: 100vh;
-}
-
 header {
 	height: 15%;
 }
 
 main {
 	height: auto;
+}
+
+.background-home {
+	background-image: url("../images/background-home-desktop.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.background-crew {
+	background-image: url("../images/background-crew-desktop.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.background-destination {
+	background-image: url("../images/background-destination-desktop.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.background-technology {
+	background-image: url("../images/background-technology-desktop.jpg");
+	background-size: cover;
+	height: 100vh;
 }

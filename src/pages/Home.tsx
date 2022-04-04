@@ -1,8 +1,12 @@
 import React from 'react';
+import MainHeader from '../shared/components/Navigation/MainHeader';
 
 const HomePage = () => {
   return (
-		<p className='text-light'>Home page</p>
+		<div className='background-home'>
+			<MainHeader />
+			<p className='text-light'>Home page</p>
+		</div>
   );
 }
 
