@@ -11,8 +11,9 @@
 .btn-circle {
 	background-color: $light;
 	color: $primary;
+	border-radius: 50%;
 
 	&:hover {
-		box-shadow: 0 0 5em $hover-color;
+		box-shadow: 0 0 1px 45px rgba(#979797, 0.5);
 	}
 }
