@@ -1,14 +1,14 @@
 $primary: #0B0D17;
 $secondary: #D0D6F9;
 $light: #FFFFFF;
-$hover-color: #8A8B90;
-$hover-button-color: #979797;
+$hover-button-color: rgba(#979797, 0.5);
 
 $bellefair: Bellefair, sans-serif;
 $barlow-condensed: 'Barlow Condensed', sans-serif;
 
 $font-family-base: $bellefair;
 
-$nav-link-color: $light;
+$nav-link-color: $secondary;
+$nav-link-hover-color: $hover-button-color;
 $navbar-padding-y: 0.5rem;
 $navbar-padding-x: 3rem;

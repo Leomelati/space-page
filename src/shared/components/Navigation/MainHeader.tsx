@@ -1,8 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Link, Routes } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../../assets/images/logo.svg'
 
 const MainHeader = () => {
+	const location = useLocation()
+
 	return (
 		<header>
 			<div className="container" id="nav-container">
@@ -15,10 +17,10 @@ const MainHeader = () => {
 					</button>
 					<div className='collapse navbar-collapse justify-content-end' id='navbar-links'>
 						<div className='navbar-nav'>
-							<Link className='nav-item nav-link nav-text' to="/">00 HOME</Link>
-							<Link className='nav-item nav-link nav-text' to="/destination">01 DESTINATION</Link>
-							<Link className='nav-item nav-link nav-text' to="/crew">02 CREW</Link>
-							<Link className='nav-item nav-link nav-text' to="/technology">03 TECHNOLOGY</Link>
+							<Link className={`nav-item nav-link nav-text ${(location.pathname === '/') ? 'nav-item-active' : ''}`} to='/'>00 HOME</Link>
+							<Link className={`nav-item nav-link nav-text ${(location.pathname === '/destination') ? 'nav-item-active' : ''}`} to='/destination'>01 DESTINATIONS</Link>
+							<Link className={`nav-item nav-link nav-text ${(location.pathname === '/crew') ? 'nav-item-active' : ''}`} to='/crew'>02 CREW</Link>
+							<Link className={`nav-item nav-link nav-text ${(location.pathname === '/technology') ? 'nav-item-active' : ''}`} to='/technology'>03 TECHNOLOGY</Link>
 						</div>
 					</div>
 				</nav>

@@ -10,7 +10,7 @@ const HomePage = () => {
 				<div className='home-section'>
 					<div className='d-flex flex-row justify-content-around align-items-end'>
 						<div className='col-4'>
-							<h5 className='heading-5 text-secondary'>SO, YOU WANT TO TRAVEL TO SPACE</h5>
+							<h5 className='heading-4 text-secondary'>SO, YOU WANT TO TRAVEL TO SPACE</h5>
 							<h1 className='heading-1 text-light'>SPACE</h1>
 							<p className='text-secondary body-text'>
 								Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
