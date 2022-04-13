@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import MainHeader from '../shared/components/Navigation/MainHeader';
-import moon from '../assets/images/image-moon.png'
 
 const DestinationPage = () => {
 	const [destination, setDestination] = useState('moon');
@@ -12,7 +11,7 @@ const DestinationPage = () => {
 				<div className='destination-section'>
 						<div>
 							<p className='heading-5 text-light'><span>01</span> PICK YOUR DESTINATION </p>
-							<img src={moon}></img>
+							<img src={require(`../assets/images/image-${destination}.png`)}></img>
 						</div>
 						<div className='col-4'>
 							<div className='d-flex flex-row'>
