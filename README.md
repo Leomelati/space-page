@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Space Page
 
-## Available Scripts
+<img src="exemplo-image.png" alt="exemplo imagem">
 
-In the project directory, you can run:
+> The front repository of the Space Page website.
+> [Check express API right here.](https://choosealicense.com)
 
-### `npm start`
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About The Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I started this project to try some technologies I have never worked with before to learn how they work and how different they solve problems compared to other programming languages.
+The included technologies are:
+1. React
+2. Bootstrap
+3. Express
+4. MongoDB
 
-### `npm test`
+## Roadmap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Add Home Page
+- [ ] Add Destination Page
+- [ ] Add Crew Page
+- [ ] Add Technology Page
+- [ ] Connect front-end and back-end
+- [ ] Deploy Application
+- [ ] Implements CI/CD
 
-### `npm run build`
+## Contact
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Leonardo Melati - [Linkedin](https://www.linkedin.com/in/leonardo-melati/) - leomelati@gmail.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project Link: [https://github.com/Leomelati/space-page](https://github.com/Leomelati/space-page)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Acknowledgments
 
-### `npm run eject`
+* [Frontend Mentor - To make the design available.](https://www.frontendmentor.io/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Distribuited under the MIT License. See [LICENSE](LICENSE.md) for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="left"><a href="#top">⬆Back to top</a></p>
