@@ -1,0 +1,7 @@
+build/
+node_modules/
+LICENSE
+.gitignore
+README.md
+space-page.gif
+.git
