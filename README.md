@@ -34,7 +34,7 @@ The included technologies are:
 - [ ] Add Crew Page
 - [ ] Add Technology Page
 - [ ] Connect front-end and back-end
-- [ ] Deploy Application
+- [x] Deploy Application
 - [ ] Implements CI/CD
 
 ## Contact
