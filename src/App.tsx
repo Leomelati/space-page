@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import CrewPage from './pages/Crew';
 import DestinationPage from './pages/Destination';
-import HomePage from './pages/Home';
+import HomePage from './pages/home/Home';
 import TechnologyPage from './pages/Technology';
 
 const App = () => {
