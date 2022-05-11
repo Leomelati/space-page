@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import MainHeader from '../../shared/components/Navigation/MainHeader';
-import TextBlock from '../../shared/components/Text-Block/TextBlock';
+import MainHeader from '../shared/components/Navigation/MainHeader';
+import TextBlock from '../shared/components/Text-Block/TextBlock';
 
 const HomePage = () => {
   return (
