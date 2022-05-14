@@ -21,6 +21,7 @@
     ],
     "rules": {
 			"linebreak-style": ["error", "windows"],
-			"max-len": ["error", { "code": 100 }]
+			"max-len": ["error", { "code": 100 }],
+      "require-jsdoc" : 0
     }
 }
