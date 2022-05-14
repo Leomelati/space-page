@@ -51,36 +51,35 @@ const DestinationPage = () => {
     return items;
   };
 
-  const defineImagePath = (): string => {
-    console.log(`../../assets/images/image-${selectedDestination.Name.toLowerCase()}.png`);
-    return `../../assets/images/image-moon.png`;
-  };
+  // TO DO: Rever
+  // const defineImagePath = (): string => {
+  //   console.log(`../../assets/images/image-${selectedDestination.Name.toLowerCase()}.png`);
+  //   return `../../assets/images/image-moon.png`;
+  // };
 
   return (
     <div className='background-destination'>
       <MainHeader />
       <main>
-        <div className='destination-section'>
+        <div className='d-flex justify-content-around align-items-center h-100'>
           <div>
             <p className='heading-5 text-light'><span>01</span> PICK YOUR DESTINATION </p>
-            <img src={defineImagePath()}></img>
+            <img src={require('../../assets/images/image-moon.png')}></img>
           </div>
-          <div className='col'>
-            <TextBlock
-              header={<DestinationMenu
-                destinations={DESTINATION_DUMMY}
-                selectedDestination={selectedDestination}
-                setState={setSelectedDestination}
-              />}
-              title={selectedDestination.Name.toUpperCase()}
-              description={selectedDestination.Description}
-              footer={
-                <FooterBlock
-                  items={createFooterItens()}
-                />
-              }
-            />
-          </div>
+          <TextBlock
+            header={<DestinationMenu
+              destinations={DESTINATION_DUMMY}
+              selectedDestination={selectedDestination}
+              setState={setSelectedDestination}
+            />}
+            title={selectedDestination.Name.toUpperCase()}
+            description={selectedDestination.Description}
+            footer={
+              <FooterBlock
+                items={createFooterItens()}
+              />
+            }
+          />
         </div>
       </main>
     </div>
