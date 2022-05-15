@@ -5,7 +5,7 @@
 <img src="space-page.gif" alt="space-page">
 
 > The front repository of the [Space Page website.](https://leonardo-space-page.herokuapp.com/)  
->[Check express API right here.](https://choosealicense.com)
+>[Check express API right here.](https://github.com/Leomelati/space-api-express)
 
 <details>
   <summary>Table of Contents</summary>
