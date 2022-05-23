@@ -5,6 +5,10 @@ import MainHeader from '../../shared/components/Navigation/MainHeader';
 import TextBlock from '../../shared/components/Text-Block/TextBlock';
 import DestinationMenu from './components/destination-menu';
 import {Destination} from './models/Destination';
+import moon from '../../assets/images/image-moon.png';
+import titan from '../../assets/images/image-titan.png';
+import mars from '../../assets/images/image-mars.png';
+import europa from '../../assets/images/image-europa.png';
 
 const DestinationPage = () => {
   const DESTINATION_DUMMY: Destination[] = [
@@ -51,11 +55,19 @@ const DestinationPage = () => {
     return items;
   };
 
-  // TO DO: Rever
-  // const defineImagePath = (): string => {
-  //   console.log(`../../assets/images/image-${selectedDestination.Name.toLowerCase()}.png`);
-  //   return `../../assets/images/image-moon.png`;
-  // };
+  const defineImage = (): string => {
+    switch (selectedDestination.Name) {
+      case 'Moon':
+        return moon;
+      case 'Mars':
+        return mars;
+      case 'Europa':
+        return europa;
+      case 'Titan':
+        return titan;
+    }
+    return 'Not found';
+  };
 
   return (
     <div className='background-destination'>
@@ -64,7 +76,7 @@ const DestinationPage = () => {
         <div className='d-flex justify-content-around align-items-center h-100'>
           <div>
             <p className='heading-5 text-light'><span>01</span> PICK YOUR DESTINATION </p>
-            <img src={require('../../assets/images/image-moon.png')}></img>
+            <img src={defineImage()}></img>
           </div>
           <TextBlock
             header={<DestinationMenu
