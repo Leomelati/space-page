@@ -9,7 +9,7 @@ interface IProps {
 
 const TextBlock = (props: IProps) => {
   return (
-    <div className='col-4'>
+    <div className='col-md-4 col-8'>
       {props.header}
       <h1 className='heading-1 text-light'>{props.title}</h1>
       <p className='text-secondary body-text'>{props.description}</p>

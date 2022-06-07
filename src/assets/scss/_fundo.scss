@@ -9,23 +9,39 @@ main {
 .background-home {
 	background-image: url("../../../public/images/background-home-desktop.jpg");
 	background-size: cover;
-	height: 100vh;
+  height: 100vh;
+
+  @media (max-width: 768px) {
+    background-image: url("../../../public/images/background-home-mobile.jpg");
+  }
 }
 
 .background-crew {
 	background-image: url("../../../public/images/background-crew-desktop.jpg");
 	background-size: cover;
 	height: 100vh;
+
+  @media (max-width: 768px) {
+    background-image: url("../../../public/images/background-crew-mobile.jpg");
+  }
 }
 
 .background-destination {
 	background-image: url("../../../public/images/background-destination-desktop.jpg");
 	background-size: cover;
 	height: 100vh;
+
+  @media (max-width: 768px) {
+    background-image: url("../../../public/images/background-destination-mobile.jpg");
+  }
 }
 
 .background-technology {
 	background-image: url("../../../public/images/background-technology-desktop.jpg");
 	background-size: cover;
 	height: 100vh;
+
+  @media (max-width: 768px) {
+    background-image: url("../../../public/images/background-technology-mobile.jpg");
+  }
 }

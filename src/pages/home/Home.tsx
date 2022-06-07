@@ -8,7 +8,7 @@ const HomePage = () => {
     <div className='background-home'>
       <MainHeader />
       <main>
-        <div className='d-flex justify-content-around align-items-center h-100'>
+        <div className='home-segment'>
           <TextBlock
             header={<h5 className='heading-4 text-secondary'>SO, YOU WANT TO TRAVEL TO SPACE</h5>}
             title='SPACE'
@@ -18,13 +18,11 @@ const HomePage = () => {
                         Well sit back, and relax because
                         we’ll give you a truly out of this world experience!"
           />
-          <div className='d-flex w-25 h-50'>
-            <Link className='flex-fill' to="/destination">
-              <button type="button" className="w-75 h-100 btn btn-light btn-circle btn-xl">
-                <span className='button-1'>Explore</span>
-              </button>
-            </Link>
-          </div>
+          <Link className="btn-home" to="/destination">
+            <button type="button" className="btn btn-light btn-circle btn-xl">
+              <span className='button-1'>Explore</span>
+            </button>
+          </Link>
         </div>
       </main>
     </div>

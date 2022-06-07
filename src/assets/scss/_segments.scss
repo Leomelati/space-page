@@ -1,3 +1,29 @@
 hr {
 	color: $light;
 }
+
+.home-segment {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100%;
+  flex-basis: 500px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .btn-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    button {
+      flex-grow: 1;
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+}
